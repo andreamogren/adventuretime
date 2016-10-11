@@ -62,7 +62,7 @@
          var json;
 
 		$.get("test.json", function(response) {
-			var json =JSON.parse(response);
+			var json = jQuery.parseJSON(JSON.stringify(response));
 
 		
         	var valueToUse = json[Math.floor(Math.random() * json.length)];
