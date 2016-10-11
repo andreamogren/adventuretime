@@ -4,9 +4,9 @@
 	text-align: center;
 	}
 body {
+	background-image:url("background.png");
 	width: 90%;
 	margin: 0 auto;
-	background-color: #7ad2d9
 	}
 p {
 	float:left;
