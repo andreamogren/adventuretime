@@ -3,10 +3,9 @@
 	color: black;
 	text-align: center;
 	}
-body {
+body {	background-image:url('background.png');
 	width: 90%;
 	margin: 0 auto;
-	background-color: #7ad2d9
 	}
 img {
 	height: 400px;
