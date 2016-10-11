@@ -40,10 +40,12 @@
 				</div>
 		</div>
 		       <script type="text/javascript">       
-       var TestVar;
+             var TestVar;
 
        function testResults (form) {
-       TestVar = form.inputbox.value;
+       	TestVar = form.inputbox.value;
+
+       	
     
          var directionsService = new google.maps.DirectionsService();
          var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -56,21 +58,32 @@
          directionsDisplay.setMap(map);
          directionsDisplay.setPanel(document.getElementById('panel'));
 
-         var values = ["Medborgarplatsen","Hornstull","Östermalmstorg","Hägerstensåsen", "Göteborg", "Hellasgården", "Hagsätra", "Solna"],
-            valueToUse = values[Math.floor(Math.random() * values.length)];
+         var json;
+
+		$.get("test.json", function(response) {
+			var json =JSON.parse(response);
+
+		
+        	var valueToUse = json[Math.floor(Math.random() * json.length)];
     
-         var request = {
-           origin:TestVar, 
-           destination: valueToUse,
-           travelMode: google.maps.DirectionsTravelMode.TRANSIT
-         };
-    
-         directionsService.route(request, function(response, status) {
-           if (status == google.maps.DirectionsStatus.OK) {
-             directionsDisplay.setDirections(response);
-           }
-         });
-       }
+        	document.getElementById('title').innerHTML = valueToUse.title;
+        	document.getElementById('description').innerHTML = valueToUse.description;
+
+
+		           var request = {
+		           origin:TestVar, 
+		           destination: valueToUse.location,
+		           travelMode: google.maps.DirectionsTravelMode.TRANSIT
+		         }
+
+		           directionsService.route(request, function(response, status) {
+		           if (status == google.maps.DirectionsStatus.OK) {
+		             directionsDisplay.setDirections(response);
+		            }
+         			});
+       });
+
+};
        </script>
 	</body>
 </html>
