@@ -13,9 +13,9 @@ body {	background-image:url('background.png');
 #nav {	padding:20px;
 	font-size:30px;
 	margin: 1%;
-}
+	}
 
-li {
+li 	{
 	display: inline;
 	padding: 8px;
 	padding: 8px 0;
@@ -29,8 +29,9 @@ li {
 	text-align:center;
 	}
 #feature {
-	height:50px;
-	width:100px;
+	font-size:20px;
+	height:200px;
+	width:300px;
 	padding:20px;
 	margin-bottom: 16px;
 	background-color: #efefef;
