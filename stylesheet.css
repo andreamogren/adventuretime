@@ -8,7 +8,7 @@ body {	background-image:url('background.png');
     	background-attachment: fixed;
 	margin: 0 auto;
 	}
-#logo {
+#logo {	padding-top:20px;
 	width: 400px;
 	}
 #nav {
