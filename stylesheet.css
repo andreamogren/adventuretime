@@ -5,13 +5,12 @@
 	}
 body {	background-image:url('background.png');
 	background-repeat: no-repeat;
-    	background-attachment: fixed;
 	margin: 0 auto;
 	}
 #logo {	padding-top:20px;
 	width: 400px;
 	}
-#nav {	font-family:roboto;
+#nav {	padding:20px;
 	font-size:30px;
 	margin: 1%;
 }
