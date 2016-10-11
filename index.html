@@ -64,6 +64,7 @@
 
 						var json 	= jQuery.parseJSON(JSON.stringify(response));
 						var valueToUse  = json[Math.floor(Math.random() * json.length)];
+						console.log(valueToUse);
 
 						document.getElementById('title	    ').innerHTML = valueToUse.title;
 						document.getElementById('description').innerHTML = valueToUse.description;
