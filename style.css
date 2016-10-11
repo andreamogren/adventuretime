@@ -5,6 +5,7 @@
 	}
 body {
 	background-image:url("background.png");
+	background-attachment:fixed;
 	width: 90%;
 	margin: 0 auto;
 	}
