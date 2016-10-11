@@ -4,11 +4,11 @@
 	text-align: center;
 	}
 body {	background-image:url('background.png');
-	width: 90%;
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
 	margin: 0 auto;
 	}
 img {
-	height: 400px;
 	width: 400px;
 	}
 #nav {
