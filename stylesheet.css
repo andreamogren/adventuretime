@@ -11,14 +11,14 @@ body {	background-image:url('background.png');
 #logo {	padding-top:20px;
 	width: 400px;
 	}
-#nav {
-	margin: 1%;}
-	li {
+#nav {	font-family:roboto;
+	font-size:30px;
+	margin: 1%;
+}
+
+li {
 	display: inline;
 	padding: 8px;
-	}
-#nav {
-	background-color: #efefef;
 	padding: 8px 0;
 	}
 #map {
