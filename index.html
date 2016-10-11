@@ -46,7 +46,6 @@
 			
 			$(document).ready(function() {
 				$('#button_submit').click(function(){				
-					var TestVar 	      = $('#input_location').val();
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
 
@@ -70,7 +69,7 @@
 						document.getElementById('description').innerHTML = valueToUse.description;
 
 							   var request = {
-								origin		: TestVar, 
+								origin		: $('#input_location').val(), 
 								destination	: valueToUse.location,
 								travelMode	: google.maps.DirectionsTravelMode.TRANSIT
 							   }
