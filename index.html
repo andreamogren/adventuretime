@@ -45,9 +45,8 @@
 		<script type="text/javascript"> 
 			
 			$(document).ready(function() {
-				$('#button_submit').click(function(){
-					var json; // This my shit 420 yall				
-					var TestVar 	      = this.value;
+				$('#button_submit').click(function(){				
+					var TestVar 	      = this.value; console.log(TestVar);
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
 
