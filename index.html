@@ -46,7 +46,7 @@
 			
 			$(document).ready(function() {
 				$('#button_submit').click(function(){				
-					var TestVar 	      = $('#input_location').value();
+					var TestVar 	      = $('#input_location').attr('value');
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
 
