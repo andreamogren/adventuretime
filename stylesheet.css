@@ -3,13 +3,16 @@
 	color: black;
 	text-align: center;
 	}
+
 body {	background-image:url('background.png');
 	background-repeat: no-repeat;
-	margin: 0 auto;
 	}
+
 #logo {	padding-top:20px;
 	width: 400px;
+	margin: O auto;
 	}
+
 #nav {	padding:20px;
 	font-size:30px;
 	margin: 1%;
@@ -19,32 +22,40 @@ li 	{
 	display: inline;
 	padding: 8px;
 	padding: 8px 0;
+	margin: 0 auto;
 	}
+
 #map {
 	width: 406px;
 	height: 400px;
 	}
+
 #panel{
 	width: 404px;
 	text-align:center;
+	margin:0 auto;
 	}
+
 #feature {
 	font-size:20px;
 	height:200px;
 	width:300px;
 	padding:20px;
 	margin-bottom: 16px;
-	background-color: #efefef;
+	margin: 0 auto;
 	}
+
 .column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
 	background-color: #efefef;
 	}
+
 .column3 {
 	margin-right: 0%;
 	}
+
 p {
 	float:left;
 	font-size: 50px;
