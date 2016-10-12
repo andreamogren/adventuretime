@@ -34,15 +34,12 @@ a	{
 
 #title {
 	display:block;
-	text-align:center;
 	}
 
 #title_div {
 	width:100%;
 	height:200px;
 	background-color:white;
-	display:block;
-	text-align:center;
 	}
 
 #description {
