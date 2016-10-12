@@ -32,16 +32,16 @@
 			{"title":"Flottsbro Downhill Cars",
 			"location":"Flottsbro Friluftsområde Häggstavägen 20 141 32 Huddinge",
 			"description":"The 100 % environmentally friendly car!",
-			"category":"Fun", "Group"
+			"category":"Fun" + "Group"
 			},
 			{"title":"Skansen",
 			"location":"Djurgårdsslätten 49-51, 115 21 Stockholm",
 			"description":"Why not visit Sweden's oldest outdoor museum?",
-			"category":"Fun", "Group"
+			"category":"Fun" + "Group"
 			},
  			{"title": "Boule & Berså",
 	                "location": "Sjökvarnsbacken 13, 131 71 Nacka"
-			"description":"Beat your friends in a game of boule!",
-			"category":"Fun", "Group", "Kids"
+			"description": "Beat your friends in a game of boule!",
+			"category":"Fun" + "Group" + "Kids"
 			},
 			]
