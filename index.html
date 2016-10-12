@@ -57,8 +57,17 @@
 
 		<script type="text/javascript"> 
 			
+			document.getElementByClass('article column1').style.visibility = "hidden";
+			document.getElementByClass('article column2').style.visibility = "hidden";
+			document.getElementByClass('article column3').style.visibility = "hidden";
+			
 			$(document).ready(function() {
-				$('#button_submit').click(function(){				
+				$('#button_submit').click(function(){
+					
+			document.getElementByClass('article column1').style.visibility = "visible";
+			document.getElementByClass('article column2').style.visibility = "visible";
+			document.getElementByClass('article column3').style.visibility = "visible";
+					
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
 
