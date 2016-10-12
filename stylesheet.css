@@ -76,7 +76,6 @@ p {
 	.column1 p {font-size: 10px;}
 	#panel {width: 98%; height: 98%; font-size: 10px;}
 	#map {width: 98%;}
-	#logo {width: 50%; height: 50%;}
+	#logo {width: 80%; height: 80%;}
 	#feature {font-size: 10px;}
-	body {background-image: url('mapsketchweb.jpg')}
 	}
