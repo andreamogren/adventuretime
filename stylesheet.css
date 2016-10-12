@@ -61,14 +61,14 @@ a	{
 	margin: 0 auto;
 	}
 
-#column1, #column2 {
+#column1, #column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;
 	background-color: #efefef;
 	}
 
-#column3 {
+#column2 {
 	margin-right: 0%;
 	}
 
