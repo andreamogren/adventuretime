@@ -13,11 +13,11 @@
 			<img id="logo" src="adventuring.png">
 			<div id="nav">
 				<ul>
-					<li><a href="">Nature</a></li>
-					<li><a href="">City</a></li>
-					<li><a href="">Far away</a></li>
-					<li><a href="">Group</a></li>
-					<li><a href="">Kids</a></li>
+					<li><a href="">NATURE</a></li>
+					<li><a href="">CITY</a></li>
+					<li><a href="">FAR AWAY</a></li>
+					<li><a href="">GROUP</a></li>
+					<li><a href="">KIDS</a></li>
 				</ul>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 					directionsDisplay.setMap(map);
 					directionsDisplay.setPanel(document.getElementById('panel'));
 
-					$.get("test.json", function(response) {
+					$.get("adventure_data.json", function(response) {
 
 						var json 	= jQuery.parseJSON(JSON.stringify(response));
 						var valueToUse  = json[Math.floor(Math.random() * json.length)];
