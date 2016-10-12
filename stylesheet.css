@@ -37,7 +37,7 @@ a	{
 	}
 
 #map {
-	width: 406px;
+	width: 450px;
 	height: 400px;
 	}
 
@@ -69,4 +69,13 @@ a	{
 p {
 	float:left;
 	font-size: 50px;
+	}
+
+@media screen and (max-width: 768px) {
+	#nav {font-size: 10px;}
+	.column1 p {font-size: 10px;}
+	#panel {width: 98%; height: 98%; font-size: 10px;}
+	#map {width: 98%;}
+	#logo {width: 50%; height: 50%;}
+	#feature {font-size: 10px;}
 	}
