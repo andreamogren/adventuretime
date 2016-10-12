@@ -37,6 +37,11 @@ a	{
 	display:block;
 	}
 
+#title_div {
+	width:100%;
+	height:40px;
+	}
+
 #description {
 	font-size:15px;
 	text-align:center;
