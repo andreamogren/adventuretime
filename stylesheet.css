@@ -42,11 +42,13 @@ a	{
 	height:200px;
 	background-color:white;
 	display:block;
+	text-align:center;
 	}
 
 #description {
 	font-size:15px;
 	text-align:center;
+	display:block;
 	}
 
 #map {
