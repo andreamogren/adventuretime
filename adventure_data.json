@@ -26,7 +26,6 @@
 			"location":"Nockeby",
 			"description":"Do something exiting today!",
 			"category":"dangerous"
-
 			}, 
 
 			{"title":"Flottsbro Downhill Cars",
@@ -34,14 +33,16 @@
 			"description":"The 100 % environmentally friendly car!",
 			"category":"Fun"
 			},
+ 
 			{"title":"Skansen",
 			"location":"Djurgårdsslätten 49-51, 115 21 Stockholm",
 			"description":"Why not visit Sweden's oldest outdoor museum?",
 			"category":"Fun"
 			},
+ 
  			{"title": "Boule & Berså",
 	                "location": "Sjökvarnsbacken 13, 131 71 Nacka",
 			"description": "Beat your friends in a game of boule!",
 			"category":"Fun"
-			},
+			}
 			]
