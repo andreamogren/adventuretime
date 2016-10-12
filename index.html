@@ -75,15 +75,14 @@
 					$.get("adventure_data.json", function(response) {
 
 						var json 	= jQuery.parseJSON(JSON.stringify(response));
-						var valueToUse  = json[Math.floor(Math.random() * json.length)];
-						console.log(valueToUse);
+						var randomJsonObject  = json[Math.floor(Math.random() * json.length)];
 
-						document.getElementById('title'      ).innerHTML = valueToUse.title;
-						document.getElementById('description').innerHTML = valueToUse.description;
+						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
+						document.getElementById('description').innerHTML = randomJsonObject.description;
 
 							   var request = {
 								origin		: $('#input_location').val(), 
-								destination	: valueToUse.location,
+								destination	: randomJsonObject.location,
 								travelMode	: google.maps.DirectionsTravelMode.TRANSIT
 							   }
 
