@@ -19,6 +19,7 @@ body {	background-image:url('background.png');
 	}
 
 li 	{
+	text-decoration:none;
 	display: inline;
 	padding: 8px;
 	padding: 8px 0;
