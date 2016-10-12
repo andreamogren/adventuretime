@@ -32,7 +32,7 @@ a	{
 	padding:20px;
 	}
 
-#title {text-align:center;
+#title {
 	display:block;
 	}
 
@@ -40,6 +40,7 @@ a	{
 	width:100%;
 	height:200px;
 	background-color:white;
+	text-align:center;
 	}
 
 #description {
