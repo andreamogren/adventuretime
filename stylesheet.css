@@ -48,14 +48,16 @@ body {	background-image:url('background_.png');
 	text-align:center;
 	}
 
-#map {
-	width:404px;
-	height:400px
-	}
-
-#panel{
-	width: 31.3%
-	}
+ #map {
+ 	width: 450px;
+ 	height: 400px;
+  	}
+  
+  #panel{
+ 	width: 404px;
+ 	text-align:center;
+ 	margin:0 auto;
+  	}
 
 #column1 {
 	width: 31.3%;
