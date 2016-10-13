@@ -13,8 +13,8 @@ body {	background-image:url('background_.png');
 	text-align:center;
 	}
 
-#nav {	width:1000px;
-	margin:0 auto;
+#nav {	width:100%;
+	text-align:center;
 	padding-left:10px;
 	padding-right:10px;
 	font-size:30px;
