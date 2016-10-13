@@ -55,7 +55,6 @@ body {	background-image:url('background_.png');
 	}
 
  #map {	
-	opacity:0.8;
  	width: 100%;
 	height:400px;
   	}
@@ -80,6 +79,7 @@ body {	background-image:url('background_.png');
 	}
 
 #column3 {
+	opacity:0.6;
 	width: 31.3%;
 	float: right;
 	margin:1%;
