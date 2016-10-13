@@ -13,6 +13,10 @@ body {	background-image:url('background_.png');
 	margin:0 auto;
 	}
 
+#logo_div {
+	width:1000px;
+	}
+
 #nav {	width:1000px;
 	margin:0 auto;
 	padding-left:10px;
