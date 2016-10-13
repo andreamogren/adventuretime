@@ -1,3 +1,7 @@
+.warnbox-c1, .warnbox-c2, .warnbox-content {
+	background-color:blue;
+	}
+
 body {	background-image:url('background_.png');
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -35,10 +39,6 @@ body {	background-image:url('background_.png');
 	margin:0 auto;
 	}
 
-input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-	background-color:white;
-	}
-
 #button_submit {
 	background-color:grey;
 	border-radius:3px;
@@ -56,10 +56,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 #description {
 	font-size:15px;
 	text-align:center;
-	}
-
-.warnbox-c1, .warnbox-c2, .warnbox-content {
-	background-color:white;
 	}
 
  #map {
