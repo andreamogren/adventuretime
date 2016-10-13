@@ -10,10 +10,11 @@ body {	background-image:url('background_.png');
 
 #logo {	padding-top:30px;
 	width: 400px;
-	margin: O auto;
+	text-align:center;
 	}
 
-#nav {	padding-left:10px;
+#nav {	margin:auto;
+	padding-left:10px;
 	padding-right:10px;
 	font-size:30px;
 	margin: 1%;
