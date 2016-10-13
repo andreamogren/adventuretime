@@ -10,7 +10,8 @@ body {	background-image:url('background_.png');
 	}
 
 #logo_div {
-	width:1000px;
+	width:100%;
+	text-align:center;
 	}
 
 #nav {	width:1000px;
