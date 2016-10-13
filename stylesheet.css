@@ -54,7 +54,8 @@ body {	background-image:url('background_.png');
 	text-align:center;
 	}
 
- #map {
+ #map {	
+	opacity:0.8;
  	width: 100%;
 	height:400px;
   	}
