@@ -1,7 +1,7 @@
 
 body {	
 	font-family: Arial, Verdana, sans-serif;
-	color: black;
+	color: green;
 	text-align: center;
 	background-image:url('background_.png');
 	background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 	margin: 1%;
 	}
 
-.navlist 	{
+.navlist {
 	display: inline;
 	padding: 8px;
 	padding: 8px;
@@ -69,7 +69,7 @@ a	{
 
 h1 {
 	font-size: 50px;
-}
+	}
 
 p {
 	text-align: left;
