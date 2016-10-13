@@ -113,3 +113,7 @@ body {	background-image:url('background_.png');
 .adp { font-size:12px !important;
 
 }
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color:white !important;
+	}
