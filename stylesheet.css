@@ -52,8 +52,8 @@ body {	background-image:url('background_.png');
 #description {
 	font-size:30px;
 	text-align:left;
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:15%;
+	padding-right:15%;
 	}
 
  #map {	
