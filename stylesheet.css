@@ -38,10 +38,12 @@ body {	background-image:url('background_.png');
 #title_div {
 	width:1000px;
 	height:200px;
+	margin:0 auto;
 	}
 
 #title {
 	text-align:center;
+	overflow: auto;
 	}
 
 #description {
@@ -82,9 +84,6 @@ body {	background-image:url('background_.png');
 	background-color: #efefef;
 	}
 
-.clearfix {
-  overflow: auto;
-}
 
 p {
 	float:left;
