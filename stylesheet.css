@@ -38,10 +38,10 @@ body {	background-image:url('background_.png');
 #title_div {
 	width:100%;
 	height:200px;
+	text-align:center;
 	}
 
 #title {
-	text-align:center;
 	}
 
 #description {
