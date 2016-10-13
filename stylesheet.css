@@ -1,6 +1,7 @@
 body {	background-image:url('background_.png');
 	background-attachment:fixed;
 	background-repeat: no-repeat;
+	text-align: center;
 	}
 
 #logo {	padding-top:30px;
@@ -40,10 +41,7 @@ body {	background-image:url('background_.png');
 	height:200px;
 	margin:auto;
 	display: block;
-	align-items:50% center;
-	}
-
-#title {
+	text-align:center;
 	}
 
 #description {
@@ -68,6 +66,7 @@ body {	background-image:url('background_.png');
 	float: left;
 	margin: 1%;
 	background-color: #efefef;
+	text-align: left;
 	}
 
 #column2 {
