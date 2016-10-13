@@ -97,5 +97,5 @@ body {	background-image:url('background_.png');
 	}
 
 .warnbox-c1, .warnbox-c2, .warnbox-content {
-	background-color:blue !important;
+	background-color:rgba(0,0,0,0) !important;
 	}
