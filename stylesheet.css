@@ -10,7 +10,7 @@ body {	background-image:url('background_.png');
 
 #logo {	padding-top:30px;
 	width: 400px;
-	margin:0 auto;
+	text-align:center;
 	}
 
 #logo_div {
