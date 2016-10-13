@@ -26,6 +26,18 @@ body {	background-image:url('background_.png');
 	padding-right:20px;
 	}
 
+#feature {
+	width:100%;
+	height:200px;
+	margin-bottom: 16px;
+	}
+
+#feauture form {
+	font-size:30px;
+	text-align:center;
+	margin:0 auto;
+	}
+
 #title p {
 	width:100%;
 	text-align:center;
@@ -36,17 +48,6 @@ body {	background-image:url('background_.png');
 	height:200px;
 	margin:0 auto;
 	background-color:blue;
-	}
-
-#feature {
-	width:100%;
-	height:200px;
-	margin-bottom: 16px;
-	}
-
-#feauture form {
-	font-size:30px;
-	text-align:center;
 	}
 
 #description {
