@@ -26,15 +26,20 @@ body {
 	margin: 0 auto;
 	}
 
-a:hover {
-	color: #ffffff;
-	}
 a:link {
+	color: white;
 	text-decoration: none;
-	color: black;
+}
+a:active {
+	color: white;
+	text-decoration: none;
 }
 a:visited {
-	color: grey;
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #c0c6d1;
 }
 
 #map {
