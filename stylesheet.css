@@ -99,3 +99,12 @@ body {	background-image:url('background_.png');
 .warnbox-c1, .warnbox-c2, .warnbox-content {
 	background-color:rgba(0,0,0,0) !important;
 	}
+
+.adp-placemark {
+	background-color:#77afa4 !important;
+	border:none !important;
+	}
+
+.adp-step, .adp-substep {
+	border: 1px dotted black !important;
+	}
