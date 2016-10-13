@@ -40,7 +40,7 @@ body {	background-image:url('background_.png');
 	height:200px;
 	margin:auto;
 	display: block;
-	text-align:center;
+	align-items:50% center;
 	}
 
 #title {
