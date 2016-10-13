@@ -30,12 +30,12 @@ body {	background-image:url('background_.png');
 	width:100%;
 	height:200px;
 	margin-bottom: 16px;
-	}
-
-#feauture form {
 	font-size:30px;
 	text-align:center;
 	margin:0 auto;
+	}
+
+#feauture form {
 	}
 
 #title p {
