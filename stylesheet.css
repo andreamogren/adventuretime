@@ -61,7 +61,7 @@ body {	background-image:url('background_.png');
 
   
   #panel{
- 	width: 404px;
+ 	width: 100%;
   	}
 
 #column1 {
