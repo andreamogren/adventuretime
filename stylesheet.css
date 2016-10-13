@@ -102,10 +102,10 @@ body {	background-image:url('background_.png');
 
 .adp-placemark {
 	background-color:#77afa4 !important;
-	border:none !important;
+	border:#77afa4 5px !important;
 	border-radius:3px !important;
 	}
 
-.adp-substep {
-	border: 1px dotted black !important;
+.adp-step, .adp-substep {
+	border-top: 1px dotted black !important;
 	}
