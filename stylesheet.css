@@ -59,10 +59,6 @@ body {	background-image:url('background_.png');
  	margin:0 auto;
   	}
 
-#container {
-	margin:auto;
-	}
-
 #column1 {
 	width: 31.3%;
 	float: left;
@@ -83,7 +79,7 @@ body {	background-image:url('background_.png');
 
 #column3 {
 	width: 31.3%;
-	float: left;
+	float: right;
 	margin-left:3px;
 	margin-right:3px;
 	background-color: #efefef;
