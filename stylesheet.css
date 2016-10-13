@@ -36,12 +36,13 @@ body {	background-image:url('background_.png');
 	}
 
 #title_div {
-	width:100%;
+	width:1000px;
 	height:200px;
 	text-align:center;
 	}
 
 #title {
+	
 	}
 
 #description {
