@@ -35,7 +35,7 @@ body {	background-image:url('background_.png');
 	margin:0 auto;
 	}
 
-input:-webkit-autofill {
+input {
 	background-color:turquoise;
 	}
 
