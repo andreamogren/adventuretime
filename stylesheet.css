@@ -109,3 +109,6 @@ body {	background-image:url('background_.png');
 .adp-step, .adp-substep {
 	border-top: 1px dotted black !important;
 	}
+.adp { font-size:12px !important;
+
+}
