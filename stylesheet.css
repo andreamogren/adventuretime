@@ -46,7 +46,6 @@ body {	background-image:url('background_.png');
 #description {
 	font-size:15px;
 	text-align:center;
-	display:block;
 	}
 
 #map {
@@ -66,6 +65,7 @@ body {	background-image:url('background_.png');
 	margin: 1%;
 	background-color: #efefef;
 	text-align: left;
+	display:inline-block;
 	}
 
 #column2 {
@@ -73,6 +73,7 @@ body {	background-image:url('background_.png');
 	margin: 0 auto;
 	margin: 1%;
 	background-color: #efefef;
+	display:inline-block;
 	}
 
 #column3 {
@@ -80,6 +81,7 @@ body {	background-image:url('background_.png');
 	float: left;
 	margin: 1%;
 	background-color: #efefef;
+	display:inline-block;
 	}
 
 
