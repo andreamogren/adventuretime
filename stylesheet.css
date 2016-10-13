@@ -4,7 +4,7 @@
 	text-align: center;
 	}
 
-body {	background-image:url('background.png');
+body {	background-image:url('background_.png');
 	background-attachment:fixed;
 	background-repeat: no-repeat;
 	}
@@ -104,5 +104,5 @@ p {
 	#map {width: 98%;}
 	#logo {width: 80%; height: 80%;}
 	#feature {font-size: 10px;}
-	body {background-image: url('background_mobile.png');}
+	body {background-image: url('background-mobile.png');}
 	}
