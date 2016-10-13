@@ -34,12 +34,8 @@ a:link {
 	color: black;
 }
 a:visited {
-	color: black;
+	color: white;
 }
-
-a	{
-	padding:20px;
-	}
 
 #map {
 	width: 406px;
