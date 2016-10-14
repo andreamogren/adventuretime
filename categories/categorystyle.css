@@ -1,7 +1,7 @@
 
 body {
 	color: black;
-	background-image:url(../'background_.png');
+	background-image:url('background_.png');
 	background-attachment: scroll;
 	background-size: cover;
 	}
