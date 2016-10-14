@@ -92,6 +92,11 @@ body {	background-image:url('background_.png');
 	display:inline-block;
 	}
 
+#myButton {
+    background-color: black;
+    color: white;
+	}
+
 
 @media screen and (max-width: 1000px) {
 	#nav {font-size: 10px;}
