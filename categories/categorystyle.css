@@ -41,35 +41,103 @@ a:visited {
 a:hover {
 	color: #c0c6d1;
 }
-
-#map {
-	width: 406px;
-	height: 400px;
-	}
-
-#panel{
-	width: 404px;
+#input_div {
+	width:100%;
+	height:100px;
+	margin-bottom: 16px;
+	font-size:20px;
 	text-align:center;
 	margin:0 auto;
 	}
 
-#feature {
-	font-size:20px;
-	height:200px;
-	width:300px;
-	margin-bottom: 16px;
-	margin: 0 auto;
+#button_submit {
+	background-color:grey;
+	border-radius:3px;
 	}
 
-.column1, .column2, .column3 {
+#title_div {
+	width:100%;
+	height:100px;
+	margin:auto;
+	display: block;
+	text-align:center;
+	font-size:50px;
+	}
+
+#description {
+	font-size:30px;
+	text-align:left;
+	padding-left:15%;
+	padding-right:15%;
+	}
+
+ #map {	
+ 	width: 100%;
+	height:500px;
+	border-radius:8px;
+  	}
+
+  
+  #panel{
+ 	width: 100%;
+  	}
+
+#column1 {
 	width: 31.3%;
+	height:500px;
+	background-color:#77afa4;
 	float: left;
-	margin: 1%;
-	background-color: #efefef;
+	margin:1%;
+	display:inline-block;
+	font-size:30px;
+	border-radius:5px;
 	}
 
-.column3 {
-	margin-right: 0%;
+#column2 {
+	width: 31.3%;
+	margin:1%;
+	display:inline-block;
+	}
+
+#column3 {
+	opacity:0.6;
+	width: 31.3%;
+	float: right;
+	margin:1%;
+	display:inline-block;
+	}
+
+
+@media screen and (max-width: 1000px) {
+	#nav {font-size: 10px;}
+	.column1 p {font-size: 10px;}
+	#panel {width: 98%; height: 98%; font-size: 10px;}
+	#map {width: 98%;}
+	#logo {width: 80%; height: 80%;}
+	#input_div {font-size: 10px;}
+	body {background-image: url('background-mobile.png');}
+	}
+
+.warnbox-c1, .warnbox-c2, .warnbox-content {
+	background-color:rgba(0,0,0,0) !important;
+	}
+
+.adp-placemark {
+	background-color:#77afa4 !important;
+	border:#77afa4 5px !important;
+	border-radius:3px !important;
+	}
+
+.adp-step, .adp-substep {
+	border:none !important;
+	}
+
+.adp { font-size:12px !important;
+
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+	background-color:#c1eae2 !important;
 	}
 
 h1 {
