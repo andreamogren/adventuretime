@@ -77,7 +77,7 @@
 					directionsDisplay.setMap(map);
 					directionsDisplay.setPanel(document.getElementById('panel'));
 
-					$.get("adventure_data.json", function(response) {
+					$.get("nature_data.json", function(response) {
 
 						var json             = jQuery.parseJSON(JSON.stringify(response));
 						var randomJsonObject = json[Math.floor(Math.random() * json.length)];
