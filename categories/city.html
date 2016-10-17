@@ -54,51 +54,51 @@
 			</div>
 
 				<script type="text/javascript"> 
-
-						document.getElementById('column1').style.visibility = "hidden";
-						document.getElementById('column2').style.visibility = "hidden";
-						document.getElementById('column3').style.visibility = "hidden";
-						document.getElementById('title').style.visibility   = "hidden";
-
-						$(document).ready(function() {
-							$('#button_submit').click(function(){
-
-								document.getElementById('column1').style.visibility = "visible";
-								document.getElementById('column2').style.visibility = "visible";
-								document.getElementById('column3').style.visibility = "visible";
-								document.getElementById('title').style.visibility   = "visible";
-
-								var directionsService = new google.maps.DirectionsService();
-								var directionsDisplay = new google.maps.DirectionsRenderer();
-								var map = new google.maps.Map(
-								     document.getElementById('map'), {
-									zoom	  : 7,
-									mapTypeId : google.maps.MapTypeId.ROADMAP
-								     }
-								);
-								directionsDisplay.setMap(map);
-								directionsDisplay.setPanel(document.getElementById('panel'));
-								$.get("city_data.json", function(response) {
-									var json             = jQuery.parseJSON(JSON.stringify(response));
-									var randomJsonObject = json[Math.floor(Math.random() * json.length)];
-									document.getElementById('title'      ).innerHTML = randomJsonObject.title;
-									document.getElementById('description').innerHTML = randomJsonObject.description;
-										   var request = {
-											origin		: $('#input_location').val(), 
-											destination	: randomJsonObject.location,
-											travelMode	: google.maps.DirectionsTravelMode.TRANSIT
-										   }
-										   directionsService.route(request, function(response, status) {
-											if (status == google.maps.DirectionsStatus.OK) {
-												directionsDisplay.setDirections(response);
-											}
-										   });
-								 });
-
-								$('#feature').hide();
-							});
+					
+					document.getElementById('column1').style.visibility = "hidden";
+					document.getElementById('column2').style.visibility = "hidden";
+					document.getElementById('column3').style.visibility = "hidden";
+					document.getElementById('title').style.visibility   = "hidden";
+					
+					$(document).ready(function() {
+						$('#button_submit').click(function(){
+							
+							document.getElementById('column1').style.visibility = "visible";
+							document.getElementById('column2').style.visibility = "visible";
+							document.getElementById('column3').style.visibility = "visible";
+							document.getElementById('title').style.visibility   = "visible";
+							
+							var directionsService = new google.maps.DirectionsService();
+							var directionsDisplay = new google.maps.DirectionsRenderer();
+							var map = new google.maps.Map(
+							     document.getElementById('map'), {
+								zoom	  : 7,
+								mapTypeId : google.maps.MapTypeId.ROADMAP
+							     }
+							);
+							directionsDisplay.setMap(map);
+							directionsDisplay.setPanel(document.getElementById('panel'));
+							$.get("city_data.json", function(response) {
+								var json             = jQuery.parseJSON(JSON.stringify(response));
+								var randomJsonObject = json[Math.floor(Math.random() * json.length)];
+								document.getElementById('title'      ).innerHTML = randomJsonObject.title;
+								document.getElementById('description').innerHTML = randomJsonObject.description;
+									   var request = {
+										origin		: $('#input_location').val(), 
+										destination	: randomJsonObject.location,
+										travelMode	: google.maps.DirectionsTravelMode.TRANSIT
+									   }
+									   directionsService.route(request, function(response, status) {
+										if (status == google.maps.DirectionsStatus.OK) {
+											directionsDisplay.setDirections(response);
+										}
+									   });
+							 });
+							
+							$('#feature').hide();
 						});
-					</script>
+					});
+				</script>
 
 
 				<div class="description_div">
