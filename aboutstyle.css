@@ -4,6 +4,7 @@ body {
 	text-align: center;
 	background-image:url('background_.png');
 	background-repeat: no-repeat;
+	background-size: cover;
 	}
 
 #logo {	
