@@ -1,7 +1,11 @@
 body {	background-image:url('background_.png');
 	background-attachment:fixed;
 	background-repeat: no-repeat;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
+h1 {
+	font-family: 30px; 
+}
 
 #logo {	padding-top:30px;
 	width: 400px;
