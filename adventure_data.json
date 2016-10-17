@@ -130,6 +130,18 @@
 			"location":"Nydalsparken Åvingegränd 163 68",
 			"description":"Ready to show your Parkour moves? You'd better!",
 			"category":"Far away"
+			},
+				
+			{"title":"Delta Force Paintball",
+			"location":"Runstens Gård 147 91",
+			"description":"It's war time! Why don't you have fun with your friends playing paintball?",
+			"category":"Far away"
+			},
+				
+			{"title":"Spelapaintball Farsta",
+			"location":"Mårbackagatan 31 123 43",
+			"description":"It's war time! Why don't you have fun with your friends playing paintball?",
+			"category":"Far away"
 			}
 				
 			]
