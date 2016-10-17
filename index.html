@@ -73,10 +73,13 @@
 		<script type="text/javascript"> 
 			
 			document.getElementById('container').style.visibility = "hidden";	
-			
+			var hasRun = false;
 			
 			$(document).ready(function() {
 				$('#button_submit').click(function(){
+					if (hasRun) return;
+					// continues if it's false
+					hasRun = true;
 					
 					document.getElementById('container').style.visibility = "visible";
 					
