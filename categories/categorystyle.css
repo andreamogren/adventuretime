@@ -28,7 +28,7 @@ h1 {
 	margin-left: 15px;
 }
 
-.description_div h1 {
+.description_div h1, h2, h3 {
 	font-size: 50px;
 }
 
