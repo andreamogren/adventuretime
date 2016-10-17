@@ -75,9 +75,15 @@
 			document.getElementById('column1').style.visibility = "hidden";
 			document.getElementById('column2').style.visibility = "hidden";
 			document.getElementById('column3').style.visibility = "hidden";
-			document.getElementById('title').style.visibility   = "hidden";
-
+			document.getElementById('title').style.visibility   = "hidden";		
 			
+			
+		var something = (function() {
+    		var executed = false;
+    		return function () {
+       		if (!executed) {
+            	executed = true;
+				
 			$(document).ready(function() {
 				$('#button_submit').click(function(){
 					
@@ -124,7 +130,12 @@
 				});
 			});
 			
-			
+
+				
+				
+        }
+    };
+})();
        				
 
 
