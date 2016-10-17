@@ -71,10 +71,16 @@
 			"category":"Fun"
 			},
  
- 			{"title":"Bodyflight Bromma",
-			"location":"Bryggerivägen 10 168 76",
-			"description":"Can't afford a proper flight at Bromma Airport? No worries, you can bodyflight!",
-			"category":"Fun"
+ 			{"title":"Kajak at Långholmen",
+			"location":"Alstaviksvägen 3 117 33",
+			"description":"If you like water, landscapes and exercising, kajak is the right choice!",
+			"category":"Nature"
+			},
+ 
+ 			{"title":"Kajak at Vinterviken",
+			"location":"Vinterviksvägen 52 117 65",
+			"description":"If you like water, landscapes and exercising, kajak is the right choice!",
+			"category":"Nature"
 			}
 
 			]
