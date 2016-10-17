@@ -8,13 +8,17 @@ body {
 	}
 
 h1 {
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 	}
 
 .description_div {
 	float: left;
 	margin-left: 15px;
+}
+
+.description_div h1 {
+	font-size: 50px;
 }
 
 p {
