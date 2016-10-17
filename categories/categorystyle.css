@@ -110,9 +110,15 @@ a:hover {
 	}
 
 #button_submit {
-	background-color:grey;
-	border-radius:3px;
-	}
+	    background-color: black;
+	    color: white;
+	    font-size: 24px;
+	    border: none;
+	    padding: 20px; 
+	    float: right; 
+	    margin-top: -280px;
+	    margin-right: 20px;
+		}
 
 #title_div {
 	text-align: center; 
