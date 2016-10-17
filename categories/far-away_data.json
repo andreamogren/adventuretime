@@ -1,22 +1,40 @@
-[{
-         	"title":"Outdoor adventure in Hellasgården",
-			"location":"Hellasgården",
-			"description":"Spend some time in the beautiful Swedish nature. At Hellasgården you can go for a walk, rent a canoe or visit the sauna!",
-			"category":"Nature"
-			}, 
-
+			[
 			{"title":"Bodyflight",
 			"location":"Bryggerivägen 10 168 67 Bromma",
 			"description":"Have you ever been jealous of birds? Try bodyflight! Show those suckers who's the levitating master!",
 			"category":"Far away"
 			},
 
-
 			{"title":"Frisbee golf",
 			"location":"Akallalänken 10 164 79 Kista",
 			"description":"Can't decide if you want to play frisbee or golf? Why not do both at the same time?",
 			"category":"Far away"
-			}]
+			},
+				
+			{"title":"Tensta Parkour",
+			"location":"Nydalsparken Åvingegränd 163 68",
+			"description":"Ready to show your Parkour moves? You'd better!",
+			"category":"Far away"
+			},
+				
+			{"title":"Delta Force Paintball",
+			"location":"Runstens Gård 147 91",
+			"description":"It's war time! Why don't you have fun with your friends playing paintball?",
+			"category":"Far away"
+			},
+				
+			{"title":"Spelapaintball Farsta",
+			"location":"Mårbackagatan 31 123 43",
+			"description":"It's war time! Why don't you have fun with your friends playing paintball?",
+			"category":"Far away"
+			},
+				
+			{"title":"Stockholm Paintball & Äventyrscenter",
+			"location":"Sandavägen 194 63",
+			"description":"It's war time! Why don't you have fun with your friends playing paintball?",
+			"category":"Far away"
+			}
+			]
 
 
 
