@@ -32,11 +32,6 @@ h1 {
 	font-size: 50px;
 }
 
-p {
-	font-size: 40px;
-	font-weight: normal;
-	}
-
 
 #logo {	
 	padding-top:30px;
@@ -51,12 +46,7 @@ p {
 	font-size:30px;
 	margin-bottom:40px;
 	}
-#nav a	{
-	color:black;
-	text-decoration:none;
-	padding-left:20px;
-	padding-right:20px;
-	}
+
 .navlist {
 	display: inline;
 	padding: 8px;
