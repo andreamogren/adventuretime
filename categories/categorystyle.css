@@ -18,7 +18,9 @@ h1 {
     font-size: 24px;
     border: none;
     padding: 20px; 
-    float: right; 
+    float: right;
+    margin-top: -280px;
+    margin-right: 20px;
 	}
 
 .description_div {
@@ -68,7 +70,7 @@ li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto
-	font-size:50px;
+	font-size: 50px;
 	}
 
 .navlist {
@@ -114,8 +116,6 @@ a:hover {
 	    border: none;
 	    padding: 20px; 
 	    float: right; 
-	    margin-top: -280px;
-	    margin-right: 20px;
 		}
 
 #title_div {
