@@ -78,14 +78,14 @@
 			document.getElementById('title').style.visibility   = "hidden";		
 			
 			
-		var something = (function() {
-    		var executed = false;
-    		return function () {
-       		if (!executed) {
-            	executed = true;
 				
 			$(document).ready(function() {
 				$('#button_submit').click(function(){
+					
+					var executed = false;
+    					return function () {
+       					if (!executed) {
+            				executed = true;
 					
 					document.getElementById('column1').style.visibility = "visible";
 					document.getElementById('column2').style.visibility = "visible";
@@ -135,7 +135,7 @@
 				
         }
     };
-})();
+)();
        				
 
 
