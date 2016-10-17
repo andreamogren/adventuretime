@@ -22,6 +22,12 @@ h1 {
 	font-size:20px;
 	margin-bottom:40px;
 	}
+#nav a	{
+	color:black;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;
+	}
 
 a:link {
 	color: white;
