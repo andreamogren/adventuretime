@@ -1,15 +1,28 @@
-[{			
-			"title":"Eriksdalsbadet waterpark",
+			[
+			{"title":"Eriksdalsbadet waterpark",
 			"location":"Hammarby Slussväg 20 118 60 Södermalm",
 			"description":"Go explore Eriksdalsbadet's waterpark! Here you can swim outside, even in the winter...",
 			"category":"Kids"
 			},
  
- 			{"title":"Eriksdalsbadet waterpark",
-			"location":"Hammarby Slussväg 20 118 60 Södermalm",
-			"description":"Go explore Eriksdalsbadet's waterpark! Here you can swim outside, even in the winter...",
+ 			{"title":"Tom Tits Experiment",
+			"location":"Storgatan 33 151 36",
+			"description":"Become a mad scientist and try all kinds of crazy experiments!",
 			"category":"Kids"
-			}]
+			},
+				
+			{"title":"Junibacken",
+			"location":"Galärvarvsvägen 8 115 21",
+			"description":"Who doesn't like the fantastic world of Astrid Lindgren? Join this fantastic journey!",
+			"category":"Kids"
+			},
+				
+			{"title":"Cosmonova",
+			"location":"Frescativägen 40 114 18",
+			"description":"A 3D experience that will blow your mind!",
+			"category":"Kids"
+			}
+			]
 
 
 
