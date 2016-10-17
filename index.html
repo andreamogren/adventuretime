@@ -72,13 +72,9 @@
 
 		<script type="text/javascript"> 
 			
-			document.getElementById('column1').style.visibility = "hidden";
-			document.getElementById('column2').style.visibility = "hidden";
-			document.getElementById('column3').style.visibility = "hidden";
-			document.getElementById('title').style.visibility   = "hidden";		
+			document.getElementById('container').style.visibility = "hidden";	
 			
 			
-				
 			$(document).ready(function() {
 				$('#button_submit').click(function(){
 					
@@ -87,10 +83,7 @@
        					if (!executed) {
             				executed = true;
 					
-					document.getElementById('column1').style.visibility = "visible";
-					document.getElementById('column2').style.visibility = "visible";
-					document.getElementById('column3').style.visibility = "visible";
-					document.getElementById('title').style.visibility   = "visible";
+					document.getElementById('container').style.visibility = "visible";
 					
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
