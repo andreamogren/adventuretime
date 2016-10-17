@@ -112,9 +112,10 @@ a:hover {
 #button_submit {
 	    background-color: black;
 	    color: white;
-	    font-size: 24px;
+	    font-size: 15px;
 	    border: none;
-	    padding: 20px; 
+	    padding: 10px;
+	    margin-top: 10px; 
 		}
 
 #title_div {
