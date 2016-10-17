@@ -124,8 +124,14 @@
 			"location":"Frescativägen 40 114 18",
 			"description":"A 3D experience that will blow your mind!",
 			"category":"Kids"
+			},
+				
+			{"title":"Tensta Parkour",
+			"location":"Nydalsparken Åvingegränd 163 68",
+			"description":"Ready to show your Parkour moves? You'd better!",
+			"category":"Far away"
 			}
-
+				
 			]
 
 
