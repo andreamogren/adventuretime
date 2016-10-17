@@ -75,15 +75,14 @@
 			document.getElementById('container').style.visibility = "hidden";	
 			var hasRun = false;
 			
-			if ($('#input-location').change(function() {
-				location.reload();
-			};
-			
 			$(document).ready(function() {
 				$('#button_submit').click(function(){
 					if (hasRun) return; // continues if it's false
-
 					hasRun = true;
+					
+					if ($('#input-location').change(function() {
+						location.reload();
+					};
 					
 					document.getElementById('container').style.visibility = "visible";
 					
