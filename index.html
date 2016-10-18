@@ -103,10 +103,10 @@
 						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
 						document.getElementById('description').innerHTML = randomJsonObject.description;
 						
-							    var text = $('#description'),
+							    var text = document.getElementById('description');
 								textLength = text.length;
 								
-						console.log(textLength);
+						            console.log(textLength);
 
 							    if(textLength > 30) {
 								text.css('font-size', '5px');
