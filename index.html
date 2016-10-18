@@ -104,9 +104,16 @@
 						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
 						document.getElementById('description').innerHTML = randomJsonObject.description;
 						
-						var fontSize = parseInt($("#description").length()) * 0.10;
-						console.log(fontSize);
-    						$("#description").css('font-size', fontSize);
+						function resize_to_fit(){
+							    var fontsize = $('#description').css('font-size');
+							    $('#description').css('fontSize', parseFloat(fontsize) - 1);
+
+							    if($('#description').height() >= $('#column1').height()){
+								resize_to_fit();
+							    }
+						}
+						
+						resize_to_fit();
 						
 							   var request = {
 								origin		: $('#input_location').val(), 
