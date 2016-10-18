@@ -45,6 +45,30 @@
 			"location":"Erstaviksbadet",
 			"description":"Take a nice walk in the beautiful nature of Tattby nature reserve, go explore the little secret places and feel the sea brezee in your face! Read more at: https://naturkartan.se/nacka/tattby",
 			"category":"Nature"
+			},
+				
+			{"title":"Högdalstoppen",
+			"location":"Fagersjövägen 123 58",
+			"description":"You can admire the view from the top of the hill at Högdalstoppen.",
+			"category":"Free"
+			},
+				
+			{"title":"Sätraskogens naturreservat",
+			"location":"Bredängs badväg 127 31",
+			"description":"If you like nature, there's a nice path from Sätraskogen to Liljeholmen. Leave your lazyness at home! ",
+			"category":"Free"
+			},
+				
+			{"title":"Judarskogen",
+			"location":"Åkeshovs gårdsväg 10 168 38",
+			"description":"Judarskogen is a great suggestion for nature lovers. You'll love it!",
+			"category":"Free"
+			},
+				
+			{"title":"Vinterviken Trädgård",
+			"location":"Vinterviksvägen 30 117 65",
+			"description":"Vinterviken is one of the most popular and central parks in Stockholm, give it a try!",
+			"category":"Free"
 			}
 			]
 
