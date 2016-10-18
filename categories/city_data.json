@@ -27,6 +27,12 @@
 			"location":"Palermogatan 34 115 56",
 			"description":"If you like tennis and squash, this will be fun! Read more at: http://pdlcenter.se/",
 			"category":"City"
+			},
+				
+			{"title":"PV Cykeluthyrningen",
+ 			"location":"Strandvägen 18 114 56",
+ 			"description":"If you'd like to ride a bike in the city of Stockholm but you don't have your own, why not rent it?",
+ 			"category":"City"
 			}
 			]
 
