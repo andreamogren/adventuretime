@@ -103,17 +103,18 @@
 						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
 						document.getElementById('description').innerHTML = randomJsonObject.description;
 						
-						function resize_to_fit(){
-							    var fontsize = $('#description').css('font-size');
-							    $('#description').css('fontSize', parseFloat(fontsize) - 1);
+							    var text = $('#description'),
+								textLength = text.val().length;
+								
+						console.log(textLength);
 
-							    if($('#description').height() >= $('#column1').height()){
-								resize_to_fit();
+							    if(textLength > 30) {
+								text.css('font-size', '5px');
+							    } else if(textLength > 20) {
+								text.css('font-size', '10px');
+							    } else if(textLength > 10) {
+								text.css('font-size', '15px');
 							    }
-							console.log(fontsize);
-						}
-						
-						resize_to_fit();
 						
 							   var request = {
 								origin		: $('#input_location').val(), 
