@@ -172,5 +172,11 @@
  			"location":"Fagersjövägen 123 58",
  			"description":"You can admire the view from the top of the hill at Högdalstoppen.",
  			"category":"Free"
-			}	
+			},
+				
+			{"title":"Stockholm Fishing Camp",
+ 			"location":"Gällnö brygga 130 33 Gällnöby",
+ 			"description":"What about fishing in the archipelago? Don't worry about bringing your equipment, you can rent it at Stockholm Fishing Camp!",
+ 			"category":"Far away"
+			}
 			]
