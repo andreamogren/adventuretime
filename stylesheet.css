@@ -83,8 +83,10 @@ a:hover {
 	margin-top: 10px;
 	border-radius:2px;
 	margin:0 auto;
-	
 	     }
+#center_button {
+	width:100%;
+	}
 
 #title_div {
 	width:100%;
