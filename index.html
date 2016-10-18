@@ -80,6 +80,12 @@
 			$(document).ready(function() {
 				
 				
+					$('#new_adventure').click(function() {
+					document.getElementById('new_adventure').style.display = "visible";
+					location.reload();
+				  });
+				
+				
 				
 				$('#button_submit').click(function(){
 					if (hasRun) return; // continues if it's false
@@ -146,11 +152,6 @@
 			}
 							   });
 					 });
-					
-					$('#new_adventure').click(function() {
-					document.getElementById('new_adventure').style.display = "visible";
-					location.reload();
-				  });
 					
 				});
 			});
