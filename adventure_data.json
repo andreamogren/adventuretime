@@ -184,5 +184,11 @@
  			"location":"Gryttjom 111 815 91 Tierp",
  			"description":"Are you brave enough to skydive? This requires a lot of courage and you can even brag about it after you've done it!",
  			"category":"Far away"
-			}	
+			},
+				
+			{"title":"PV Cykeluthyrningen",
+ 			"location":"Strandvägen 18 114 56",
+ 			"description":"If you'd like to ride a bike in the city of Stockholm but you don't have your own, why not rent it?",
+ 			"category":"City"
+			}
 			]
