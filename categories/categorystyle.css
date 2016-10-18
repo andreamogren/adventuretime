@@ -26,6 +26,7 @@ h1 {
 .description_div {
 	float: left;
 	margin-left: 15px;
+	font-size: 20px;
 }
 
 .description_div h1, h2, h3 {
