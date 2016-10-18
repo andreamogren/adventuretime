@@ -194,6 +194,12 @@
  			"description":"Vinterviken is one of the most popular and central parks in Stockholm, give it a try!",
  			"description":"Vinterviken is one of the most popular and central parks in Stockholm, give it a try! Read more at: http://vinterviken.com/",
   			"category":"Free"
- 			}
+ 			},
+				
+			{"title":"Högdalstoppen",
+ 			"location":"Fagersjövägen 123 58",
+ 			"description":"You can admire the view from the top of the hill at Högdalstoppen.",
+ 			"category":"Free"
+			}
  				
 			]
