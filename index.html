@@ -107,11 +107,14 @@
 						
 						console.log(textHeight);
 							
-						if (textHeight > 200) { $('#description').css("font-size", "30px");
+						if (textHeight > 400) { $('#description').css("font-size", "20px");
 						} 
-						else if (textHeight < 200) { $('#description').css("font-size", "50px");
-						      }
-						
+						else if (textHeight > 300) { $('#description').css("font-size", "25px");
+						}
+						else if (textHeight > 200) { $('#description').css("font-size", "30px");
+						}
+						else if (textHeight > 100) { $('#description').css("font-size", "40px");
+						}
 						
 							   var request = {
 								origin		: $('#input_location').val(), 
