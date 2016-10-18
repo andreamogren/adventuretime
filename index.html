@@ -103,7 +103,10 @@
 
 						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
 						document.getElementById('description').innerHTML = randomJsonObject.description;
-
+						
+						var fontSize = parseInt($("#column1").height())+"px";
+    						$("#description").css('font-size', fontSize);
+						
 							   var request = {
 								origin		: $('#input_location').val(), 
 								destination	: randomJsonObject.location,
