@@ -1,9 +1,9 @@
 			[
 			{"title":"Eriksdalsbadet waterpark",
 			"location":"Hammarby Slussväg 20 118 60 Södermalm",
-			"description":"Go explore Eriksdalsbadet's waterpark! Here you can swim outside, even in the winter... Read more at: http://www.stockholm.se/eriksdalsbadet",
+			"description":"Go explore Eriksdalsbadet's waterpark! Here you can swim outside, even in the winter... <a href=\"www.stockholm.se/eriksdalsbadet/"\> Read more <\/a>"
 			"category":"Kids"
-			},
+			}/*,
  
  			{"title":"Tom Tits Experiment",
 			"location":"Storgatan 33 151 36",
@@ -21,7 +21,7 @@
 			"location":"Frescativägen 40 114 18",
 			"description":"A 3D experience that will blow your mind! Read more at: http://www.nrm.se/english/visitthemuseum/cosmonova.64_en.html",
 			"category":"Kids"
-			}
+			}*/
 			]
 
 
