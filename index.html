@@ -82,10 +82,6 @@
 			
 			$(document).ready(function() {
 				
-					$('#new_adventure').click(function() {
-						location.reload();
-				  	});
-				
 				$('#button_submit').click(function(){
 					if (hasRun) return; // continues if it's false
 					hasRun = true;
@@ -163,6 +159,10 @@
 		$("#button_submit").click();
 		 return false;
 	    }
+		
+			$('#new_adventure').click(function() {
+				location.reload();
+			});
 	});	
 
 
