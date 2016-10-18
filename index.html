@@ -143,12 +143,15 @@
 							console.log(status);
 								   
 						
-							if(status == "NOT_FOUND"){
-									alert("wrong input");
-							}
-							if(status == "ZERO_RESULTS"){
-									alert("wrong input");
-							}
+					if(status == "NOT_FOUND"){
+							document.getElementById('container').style.display = "none";
+							document.getElementById('input_div').style.display = "none";
+							document.getElementById('title_div').style.display = "none";
+							alert("wroooong");
+					}
+					if(status == "ZERO_RESULTS"){
+							alert("wrong input");
+					}
 								   
 								   
 							   });
