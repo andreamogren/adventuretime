@@ -103,18 +103,14 @@
 						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
 						document.getElementById('description').innerHTML = randomJsonObject.description;
 						
-							    var text = document.getElementById('description');
-								textLength = text.length;
-								
-						            console.log(textLength);
-
-							    if(textLength > 30) {
-								text.css('font-size', '5px');
-							    } else if(textLength > 20) {
-								text.css('font-size', '10px');
-							    } else if(textLength > 10) {
-								text.css('font-size', '15px');
-							    }
+						var text = $(document).find('#description');
+						var textHeight = $('#description').height();
+							
+						if (textHeight > 20) { $('#description').css("font-size", "20px");
+						} 
+						else (textHeight < 20 { $('#description').css("font-size", "40px");
+						      };
+						
 						
 							   var request = {
 								origin		: $('#input_location').val(), 
