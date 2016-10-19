@@ -196,5 +196,17 @@
  			"location":"Birger Jarls torg 111 28",
  			"description":"Walking on the roofs in Stockholm? Is this true? Check on their website when the encounters will take place and join! Read more at: takvandring.com",
  			"category":"City"
+			},
+				
+			{"title":"Climb Stockholm highest peak",
+			"location":"Båtholmsbacken 127 42",
+			"description":"Vårbergstoppen south of Stockholm is an artificial hill with a peak of 90 meters above sea level, climb it for a really good view! Read more at: bit.ly/2egQRzC",
+			"category":"Nature"
+			},
+				
+			{"title":"Walk by the Sea in Tattby Nature reserve",
+			"location":"Erstaviksbadet 133 36",
+			"description":"Take a nice walk in the beautiful nature of Tattby nature reserve, go explore the little secret places and feel the sea brezee in your face! Read more at: bit.ly/2dorytq",
+			"category":"Nature"
 			}
 			]
