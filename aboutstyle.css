@@ -106,15 +106,16 @@ p {
 	}
 
 #myButton {
-    background-color: black;
-    color: white;
-    font-size: 24px;
-    border: none;
-    padding: 20px; 
-    float: right;
-    margin-top: -280px;
-    margin-right: 20px;
-    }
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	border: none;
+	padding: 20px; 
+	float: right; 
+	margin-top: -280px;
+	margin-right: 20px;
+	border-radius:2px;
+	}
 
 
 @media screen and (max-width: 1000px) {
