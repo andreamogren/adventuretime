@@ -56,7 +56,7 @@
 			<button id="new_adventure" type="button">Find a new adventure</button>
 		</div>
 		
-		<div id="default_message"></div>
+		<div id="default_div"></div>
 		
 			<div id="title_div">
 				<p id="title"></p>
@@ -144,20 +144,18 @@
 								}
 							console.log(status);
 								   
-						if(status == "NOT_FOUND"){
-							document.getElementById('container').style.display = "none";
-							document.getElementById('title_div').style.display = "none";
-							document.getElementById('input_div').style.display = "none";
-							$('#default_message').append('<p>Wrong input</p>');
-							
-						}
-						if(status == "ZERO_RESULTS"){
-							$('#input_div').remove();
-							$('#title_div').remove();
-							$('#container').remove();
-							$('#default_message').append('<p>Wrong input</p>');
-							
-						}
+					if(status == "NOT_FOUND"){
+						$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists.</p>');
+						$('#input_div').remove();
+						$('#title_div').remove();
+						$('#container').remove();
+					}
+					if(status == "ZERO_RESULTS"){
+						$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists.</p>');
+						$('#input_div').remove();
+						$('#title_div').remove();
+						$('#container').remove();
+					}
 				   
 								   
 							   });
