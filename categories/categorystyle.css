@@ -20,7 +20,7 @@ h1 {
     float: right;
     margin-top: -280px;
     margin-right: 20px;
-	border-radius:2px;
+    border-radius:2px;
 	}
 
 #button_submit {
@@ -30,7 +30,7 @@ h1 {
 	    border: none;
 	    padding: 10px;
 	    margin-top: 10px;
-		border-radius:2px;
+	    border-radius:2px;
 	     }
 
 #new_adventure {
@@ -45,6 +45,7 @@ h1 {
 	margin-left:auto;
 	margin-right:auto;
 	     }
+
 #center_button {
 	width:100%;
 	}
@@ -71,7 +72,6 @@ h1 {
 .description_div h1, h2, h3 {
 	font-size: 50px;
 }
-
 
 #logo {	
 	padding-top:30px;
@@ -124,12 +124,12 @@ a:hover {
 	}
 
 #button_submit {
-	    background-color: black;
-	    color: white;
-	    font-size: 15px;
-	    border: none;
-	    padding: 10px;
-	    margin-top: 10px; 
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	border: none;
+	padding: 10px;
+	margin-top: 10px; 
 		}
 
 #title_div {
