@@ -106,6 +106,8 @@ a:hover {
 #default_message {
 	text-align:center;
 	font-size:40px;
+	padding-left:15%;
+	padding-right:15%;
 	}
 
 #description {
