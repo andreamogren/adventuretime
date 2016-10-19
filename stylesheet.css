@@ -149,7 +149,7 @@ a:hover {
 	#logo {width: 80%; height: 80%;}
 	#input_div {font-size: 10px;}
 	#myButton {font-size: 10px; margin-top: -350px;}
-	body {background-image: url('../background-mobile.png');}
+	body {background-image: url('background-mobile.png');}
 	}
 
 .warnbox-c1, .warnbox-c2, .warnbox-content {
