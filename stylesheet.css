@@ -5,7 +5,7 @@ body {	background-image:url('background_.png');
 	}
 h1 {
 	font-family: 30px; 
-}
+	}
 
 #logo {	padding-top:30px;
 	width: 400px;
@@ -22,6 +22,7 @@ h1 {
 	font-size:20px;
 	margin-bottom:40px;
 	}
+
 #nav a	{
 	color:white;
 	text-decoration:none;
@@ -37,23 +38,25 @@ h1 {
 	    border: none;
 	    padding: 20px; 
 	    float: right; 
-	  margin-top: -280px;
-	  margin-right: 20px;
-	border-radius:2px;
+	    margin-top: -280px;
+	    margin-right: 20px;
+	    border-radius:2px;
 	
-		}
+	}
 
 a:link {
 	color: white;
 	text-decoration: none;
-}
+	}
+
 a:visited {
 	color: white;
 	text-decoration: none;
-}
+	}
+
 a:hover {
 	color: #c0c6d1;
-}
+	}
 
 #input_div {
 	width:100%;
@@ -86,6 +89,7 @@ a:hover {
 	margin-left:auto;
 	margin-right:auto;
 	     }
+
 #center_button {
 	width:100%;
 	}
