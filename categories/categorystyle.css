@@ -21,6 +21,44 @@ h1 {
     float: right;
     margin-top: -280px;
     margin-right: 20px;
+	border-radius:2px;
+	}
+
+#button_submit {
+	    background-color: black;
+	    color: white;
+	    font-size: 15px;
+	    border: none;
+	    padding: 10px;
+	    margin-top: 10px;
+		border-radius:2px;
+	     }
+
+#new_adventure {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	border: none;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius:2px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	     }
+#center_button {
+	width:100%;
+	}
+
+#default_div {
+	width:100%;
+	}
+
+#default_message {
+	text-align:center;
+	font-size:40px;
+	padding-left:15%;
+	padding-right:15%;
 	}
 
 .description_div {
@@ -122,29 +160,28 @@ a:hover {
   	}
 
 #column1 {
-	width: 31.3%;
-	height:550px;
+	width: 29%;
+	height:500px;
 	background-color:#77afa4;
 	float: left;
-	margin:1%;
+	margin:2.1%;
 	display:inline-block;
 	font-size:30px;
 	border-radius:5px;
 	}
 
 #column2 {
-	width: 31.3%;
-	margin:1%;
+	width: 29%;
+	margin:2.1%;
 	display:inline-block;
 	}
 
 #column3 {
-	width: 31.3%;
+	width: 29%;
 	float: right;
-	margin:1%;
+	margin:2.1%;
 	display:inline-block;
 	}
-
 
 @media screen and (max-width: 1000px) {
 	#nav {font-size: 10px;}
