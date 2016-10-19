@@ -95,6 +95,7 @@
 					document.getElementById('container').style.visibility = "visible";
 					document.getElementById('new_adventure').style.visibility = "visible";
 					document.getElementById('input_div').style.display = "none";
+					$('h1').remove();
 					
 					var directionsService = new google.maps.DirectionsService();
 					var directionsDisplay = new google.maps.DirectionsRenderer();
