@@ -77,8 +77,9 @@ a:hover {
 		border-radius:2px;
 	     }
 #input_location {
+	padding-top:10px;
 	height:20px;
-	width:70px;
+	width:100px;
 	}
 
 #new_adventure {
