@@ -99,6 +99,15 @@ a:hover {
 	font-size:50px;
 	}
 
+#default_div {
+	width:100%;
+	}
+
+#default_message {
+	text-align:center;
+	font-size:40px;
+	}
+
 #description {
 	text-align:left;
 	padding-left:20%;
