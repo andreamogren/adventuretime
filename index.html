@@ -145,16 +145,16 @@
 							console.log(status);
 								   
 						if(status == "NOT_FOUND"){
-							$('#input_div').remove();
-							$('#title_div').remove();
-							$('#container').remove();
+							$('#input_div').remove('fast');
+							$('#title_div').remove('fast');
+							$('#container').remove('fast');
 							$('#default_message').append('<p>Wrong input</p>')
 							
 						}
 						if(status == "ZERO_RESULTS"){
-							$('#input_div').remove();
-							$('#title_div').remove();
-							$('#container').remove();
+							$('#input_div').remove('fast');
+							$('#title_div').remove('fast');
+							$('#container').remove('fast');
 							$('#default_message').append('<p>Wrong input</p>')
 							
 						}
