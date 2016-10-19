@@ -145,17 +145,17 @@
 							console.log(status);
 								   
 						if(status == "NOT_FOUND"){
-							$('#input_div').fadeOut('fast');
-							$('#title_div').fadeOut('fast');
-							$('#container').fadeOut('fast');
-							$('#default_message').append('<p>Wrong input</p>')
+							document.getElementById('container').style.display = "none";
+							document.getElementById('title_div').style.display = "none";
+							document.getElementById('input_div').style.display = "none";
+							$('#default_message').append('<p>Wrong input</p>');
 							
 						}
 						if(status == "ZERO_RESULTS"){
 							$('#input_div').remove();
 							$('#title_div').remove();
 							$('#container').remove();
-							$('#default_message').append('<p>Wrong input</p>')
+							$('#default_message').append('<p>Wrong input</p>');
 							
 						}
 				   
