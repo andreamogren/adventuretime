@@ -21,6 +21,7 @@
 		</script> -->
 		
 	</head>
+	
 	<body>
 		
 			<div id="logo_div">
@@ -28,6 +29,7 @@
 					<img id="logo" src="adventuring.png"> 
 				</a>
 			</div>
+		
 			<div id="nav">
 				<a href="categories/nature.html">NATURE</a>
 				<a href="categories/city.html">CITY</a>
@@ -46,10 +48,10 @@
 		
 			<div id="input_div">
 				<form name="myform" action="" method="GET">Enter your location in the box<br>
-     				<input id="input_location" type="text" name="inputbox" value=""> <br>
-     				<input id="button_submit" type="button" name="button" Value="Find my adventure">
+     					<input id="input_location" type="text" name="inputbox" value=""> <br>
+     					<input id="button_submit" type="button" name="button" Value="Find my adventure">
       				</form>
-				<div id="form-input"></div>
+					<div id="form-input"></div>
 			</div>
 		
 		<div id="center_button"> 
@@ -102,83 +104,84 @@
 					     }
 					);
 
-					directionsDisplay.setMap(map);
-					directionsDisplay.setPanel(document.getElementById('panel'));
-					console.log(map);
-					$.get("adventure_data.json", function(response) {
+						directionsDisplay.setMap(map);
+						directionsDisplay.setPanel(document.getElementById('panel'));
+						console.log(map);
+						$.get("adventure_data.json", function(response) {
 
-						var json             = jQuery.parseJSON(JSON.stringify(response));
-						var randomJsonObject = json[Math.floor(Math.random() * json.length)];
+							var json             = jQuery.parseJSON(JSON.stringify(response));
+							var randomJsonObject = json[Math.floor(Math.random() * json.length)];
 
-						document.getElementById('title'      ).innerHTML = randomJsonObject.title;
-						document.getElementById('description').innerHTML = randomJsonObject.description;
-						
-						var textHeight = $('#description').height();
-						
-						console.log(textHeight);
-							
-						if (textHeight > 450) { $('#description').css("font-size", "90%");
-						} 
-						else if (textHeight > 400) { $('#description').css("font-size", "95%");
-						}
-						else if (textHeight > 350) { $('#description').css("font-size", "100%");
-						}
-						else if (textHeight > 300) { $('#description').css("font-size", "105%");
-						}
-						else if (textHeight > 250) { $('#description').css("font-size", "110%");
-						}
-						else if (textHeight > 200) { $('#description').css("font-size", "115%");
-						}
-						else if (textHeight < 200) { $('#description').css("font-size", "120%");
-						}
-						
-							   var request = {
-								origin		: $('#input_location').val(), 
-								destination	: randomJsonObject.location,
-								travelMode	: google.maps.DirectionsTravelMode.TRANSIT
-							   }
+							document.getElementById('title'      ).innerHTML = randomJsonObject.title;
+							document.getElementById('description').innerHTML = randomJsonObject.description;
 
-							   directionsService.route(request, function(response, status) {
-								if (status == google.maps.DirectionsStatus.OK) {
-									directionsDisplay.setDirections(response);
-								}
-							console.log(status);
-								   
-					if(status == "NOT_FOUND"){
-						$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists</p>');
-						$('#input_div').remove();
-						$('#title_div').remove();
-						$('#container').remove();
-					}
-					if(status == "ZERO_RESULTS"){
-						$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists</p>');
-						$('#input_div').remove();
-						$('#title_div').remove();
-						$('#container').remove();
-					}
-								   
-							   });
-					 });
-					
+							var textHeight = $('#description').height();
+
+							console.log(textHeight);
+
+							if (textHeight > 450) { $('#description').css("font-size", "90%");
+							} 
+							else if (textHeight > 400) { $('#description').css("font-size", "95%");
+							}
+							else if (textHeight > 350) { $('#description').css("font-size", "100%");
+							}
+							else if (textHeight > 300) { $('#description').css("font-size", "105%");
+							}
+							else if (textHeight > 250) { $('#description').css("font-size", "110%");
+							}
+							else if (textHeight > 200) { $('#description').css("font-size", "115%");
+							}
+							else if (textHeight < 200) { $('#description').css("font-size", "120%");
+							}
+
+								   var request = {
+									origin		: $('#input_location').val(), 
+									destination	: randomJsonObject.location,
+									travelMode	: google.maps.DirectionsTravelMode.TRANSIT
+								   }
+
+								   directionsService.route(request, function(response, status) {
+									if (status == google.maps.DirectionsStatus.OK) {
+										directionsDisplay.setDirections(response);
+									}
+								console.log(status);
+
+						if(status == "NOT_FOUND"){
+							$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists</p>');
+							$('#input_div').remove();
+							$('#title_div').remove();
+							$('#container').remove();
+						}
+						if(status == "ZERO_RESULTS"){
+							$('#default_div').append('<p id="default_message">Ooops! Something went wrong, please put in a location that exists</p>');
+							$('#input_div').remove();
+							$('#title_div').remove();
+							$('#container').remove();
+						}
+
+								   });
+						 });
+
+					});
 				});
-			});
-			
-			
-			
-	$("#input_location").keydown(function(event){
-	    if(event.keyCode == 13){
-		   event.preventDefault();
-		$("#button_submit").click();
-		 return false;
-	    }
+
+
+
+		$("#input_location").keydown(function(event){
+		    if(event.keyCode == 13){
+			   event.preventDefault();
+			$("#button_submit").click();
+			 return false;
+		    }
+
+				$('#new_adventure').click(function() {
+					location.reload();
+				});
+		});	
+
+
+
+		</script>
 		
-			$('#new_adventure').click(function() {
-				location.reload();
-			});
-	});	
-
-
-
-       	</script>
 	</body>
 </html>
