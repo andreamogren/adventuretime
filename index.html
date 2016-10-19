@@ -144,10 +144,7 @@
 								   
 						
 					if(status == "NOT_FOUND"){
-							document.getElementById('container').style.display = "none";
-							document.getElementById('input_div').style.display = "none";
-							document.getElementById('title_div').style.display = "none";
-							$(body).append('<p id="default_message">Enter a valid location</p>');
+						return;
 					}
 					if(status == "ZERO_RESULTS"){
 							alert("wrong input");
