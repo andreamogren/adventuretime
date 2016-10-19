@@ -4,7 +4,8 @@ body {	background-image:url('background_.png');
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 h1 {
-	font-family: 30px; 
+	font-size: 30px;
+	text-align: center;
 	}
 
 #logo {	padding-top:30px;
