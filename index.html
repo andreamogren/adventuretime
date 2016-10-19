@@ -56,6 +56,8 @@
 			<button id="new_adventure" type="button">Find a new adventure</button>
 		</div>
 		
+		<div id="default_message"></div>
+		
 			<div id="title_div">
 				<p id="title"></p>
 			</div>
@@ -85,13 +87,6 @@
 				$('#button_submit').click(function(){
 					if (hasRun) return; // continues if it's false
 					hasRun = true;
-					
-					if(status == "NOT_FOUND"){
-						return;
-					}
-					if(status == "ZERO_RESULTS"){
-							return;
-					}
 					
 					document.getElementById('container').style.visibility = "visible";
 					document.getElementById('new_adventure').style.visibility = "visible";
@@ -149,8 +144,21 @@
 								}
 							console.log(status);
 								   
-				
-								   
+						if(status == "NOT_FOUND"){
+							$('#input_div').remove();
+							$('#title_div').remove();
+							$('#container').remove();
+							$('#default_message').append('<p>Wrong input</p>')
+							
+						}
+						if(status == "ZERO_RESULTS"){
+							$('#input_div').remove();
+							$('#title_div').remove();
+							$('#container').remove();
+							$('#default_message').append('<p>Wrong input</p>')
+							
+						}
+				   
 								   
 							   });
 					 });
