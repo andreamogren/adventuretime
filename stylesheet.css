@@ -184,6 +184,13 @@ a:hover {
 	display:inline-block;
 	}
 
+.trees {
+	height:90%;
+	position:fixed;
+	bottom:0px;
+	left:50%;
+    }
+
 @media screen and (max-width: 1000px) {
 	#nav {font-size: 10px;}
 	.column1 p {font-size: 10px;}
