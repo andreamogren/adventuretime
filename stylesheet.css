@@ -32,6 +32,13 @@ h1 {
 	font-size: 30px;
 	}
 
+.navlist {
+	display: inline;
+	padding: 8px;
+	padding: 8px;
+	margin: 0 auto;
+	}
+
 #myButton {
 	    background-color: black;
 	    color: white;
@@ -135,6 +142,10 @@ a:hover {
 	padding-right:20%;
 	padding-top:5%
 	}
+
+.description_div h1, h2, h3 {
+	font-size: 50px;
+}
 
  #map {	
  	width: 100%;
