@@ -185,10 +185,10 @@ a:hover {
 	}
 
 .trees {
-	height:90%;
+	height:15%;
 	position:fixed;
 	bottom:0px;
-	left:50%;
+	left:5%;
     }
 
 @media screen and (max-width: 1000px) {
