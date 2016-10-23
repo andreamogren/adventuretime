@@ -8,6 +8,11 @@ h1 {
 	text-align: center;
 	}
 
+#first_welcome {
+	font-size:17px;
+	font-weight:;
+	}
+
 #logo {	padding-top:30px;
 	width: 400px;
 	display: block;
