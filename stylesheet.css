@@ -214,7 +214,7 @@ a:hover {
 
 /* The element to apply the animation to */
 .trees {
-	height:150px;
+	height:220px;
 	position:fixed;
 	bottom:0px;
 	left:8%;
@@ -227,7 +227,7 @@ a:hover {
 }
 
 .trees_move {
-	height:150px;
+	height:220px;
 	position:fixed;
 	bottom:0px;
 	left:8%;
