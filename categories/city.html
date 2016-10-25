@@ -66,13 +66,25 @@
 				</div>
 			</div>
 			
+			<div class="description_div">
+					<h1>Explore Sweden’s capital </h1>
+						<p>Stockholm, a mix of sweet and savoury, forests and city life. 
+						Here you can truly have the best of both worlds, experiencing big city life while not having to go too far if you want to explore the woods. 
+						There are many stores to shop at, cafes and restaurants to relax in, and of course, adventures! Type in your location to generate a random city adventure.</p>
+
+				</div>
+			
 			<script type="text/javascript"> 
+				
+						
 
 						document.getElementById('container').style.visibility = "hidden";
 						document.getElementById('new_adventure').style.visibility = "hidden";
 						var hasRun = false;
 
 						$(document).ready(function() {
+							
+							$('#description_div').css("margin-top", "-500px");
 
 							$('#button_submit').click(function(){
 								if (hasRun) return; // continues if it's false
@@ -166,14 +178,5 @@
 						});
 				});	
 				</script>
-
-
-				<div class="description_div">
-					<h1>Explore Sweden’s capital </h1>
-						<p>Stockholm, a mix of sweet and savoury, forests and city life. 
-						Here you can truly have the best of both worlds, experiencing big city life while not having to go too far if you want to explore the woods. 
-						There are many stores to shop at, cafes and restaurants to relax in, and of course, adventures! Type in your location to generate a random city adventure.</p>
-
-				</div>
 		</body>
 </html>
