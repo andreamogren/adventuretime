@@ -181,6 +181,12 @@ a:hover {
 	font-size: 50px;
 }
 
+.description_div {
+	background-color:#2999b5;
+	border-radius:5px;
+
+}
+
  #map {	
  	width: 100%;
 	height:500px;
@@ -195,7 +201,7 @@ a:hover {
 #column1 {
 	width: 29%;
 	height:500px;
-	background-color:#77afa4;
+	background-color:#2999b5;
 	float: left;
 	margin:2.1%;
 	display:inline-block;
@@ -224,17 +230,6 @@ a:hover {
 	margin-bottom: -22px;
 }
 
-.trees_move {
-	height:260px;
-	position:fixed;
-	bottom:0px;
-	left:8%;
-    animation-name: wind_move;
-    animation-duration: 10s;
-    animation-iteration-count: 50;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-}
 
 @media screen and (max-width: 1000px) {
 	#nav {font-size: 10px;}
@@ -252,8 +247,8 @@ a:hover {
 	}
 
 .adp-placemark {
-	background-color:#77afa4 !important;
-	border:#77afa4 5px !important;
+	background-color:#2999b5 !important;
+	border:#2999b5 5px !important;
 	border-radius:3px !important;
 	}
 
