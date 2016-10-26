@@ -215,39 +215,12 @@ a:hover {
 	display:inline-block;
 	}
 
-   /* The animation code */
-@keyframes wind_rotate {
-    0% {transform: rotate(0deg);}
-    25% {transform: rotate(10deg);}
-    50%{transform: rotate(0deg);}
-    75%{transform: rotate(-10deg);}
-    100% {transform: rotate(0deg);}
-
-}
-
-@keyframes wind_move {
-    0% {transform: translate(0px);}
-    25% {transform: translate(60px);}
-    50% {transform: translate(0px);}
-    75% {transform: translate(-60px);}
-    100% {transform: translate(0px);}
-
-
-
-}
-
-/* The element to apply the animation to */
 .trees {
 	height:260px;
 	position:fixed;
 	bottom:0px;
 	left:8%;
 	margin-bottom: -22px;
-    animation-name: wind_rotate;
-    animation-duration: 10s;
-    animation-iteration-count: 50;
-    animation-direction: reverse;
-    animation-timing-function: linear;
 }
 
 .trees_move {
