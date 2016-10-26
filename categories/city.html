@@ -74,6 +74,8 @@
 
 				</div>
 			
+			<img src="tree.png" class="trees">
+			
 			<script type="text/javascript"> 
 				
 						
@@ -84,7 +86,7 @@
 
 						$(document).ready(function() {
 							
-							$('.description_div').css("margin-top", "-400px");
+							$('.description_div').css("margin-top", "-280px");
 
 							$('#button_submit').click(function(){
 								if (hasRun) return; // continues if it's false
@@ -95,6 +97,7 @@
 								$('#nav').css("margin-bottom", "110px");
 								document.getElementById('input_div').style.display = "none";
 								$('.instructions').remove();
+								$('.trees').hide();
 
 								var directionsService = new google.maps.DirectionsService();
 								var directionsDisplay = new google.maps.DirectionsRenderer();
