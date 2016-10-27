@@ -91,6 +91,8 @@
 					var hasRun = false;
 
 					$(document).ready(function() {
+						
+						$('.description_div').css("margin-top", "-280px");
 
 						$('#button_submit').click(function(){
 							if (hasRun) return; // continues if it's false
@@ -101,6 +103,7 @@
 							$('#nav').css("margin-bottom", "110px");
 							document.getElementById('input_div').style.display = "none";
 							$('.instructions').remove();
+							$('.description_div').css("margin-top", "50px");
 
 							var directionsService = new google.maps.DirectionsService();
 							var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -187,7 +190,7 @@
 			
 			<div class="description_div">
 				<h1>Embrace Nature</h1>
-					<p> Nature's surrondings are always available for you to explore (and usually free!). Why not explore what you're maybe taking for granted? Here you can generate adventures that take place in Sweden's beautiful nature. </p>
+					<p id="first_welcome"> Nature's surrondings are always available for you to explore (and usually free!). Why not explore what you're maybe taking for granted? Here you can generate adventures that take place in Sweden's beautiful nature. </p>
 			</div>
 		</body>
 </html>
