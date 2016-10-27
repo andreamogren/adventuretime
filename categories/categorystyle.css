@@ -11,16 +11,6 @@ h1 {
 	text-align: center;
 	}
 
-.twitter-share-button {
-	float: right;
-	margin-right: -450px;
-	margin-top: -450px;
-	background: #4099FF;
-	padding: 10px;
-	width: 50px;
-	height: 25px;
-}
-
 #myButton {
     background-color: black;
     color: white;
