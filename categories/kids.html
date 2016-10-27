@@ -91,6 +91,8 @@
 					var hasRun = false;
 
 					$(document).ready(function() {
+						
+						$('.description_div').css("margin-top", "-280px");
 
 						$('#button_submit').click(function(){
 							if (hasRun) return; // continues if it's false
@@ -101,6 +103,7 @@
 							$('#nav').css("margin-bottom", "110px");
 							document.getElementById('input_div').style.display = "none";
 							$('.instructions').remove();
+							$('.description_div').css("margin-top", "50px");
 
 							var directionsService = new google.maps.DirectionsService();
 							var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -187,7 +190,7 @@
 			
 			<div class="description_div">
 				<h1>Ahoy matey!</h1>
-					<p>Do you want to bring a small sidekick with you on your adventure? 
+					<p id="first_welcome">Do you want to bring a small sidekick with you on your adventure? 
 					   If you have younger family members who want to join you, bring them! The more the merrier, as they say.  
 					   Here you can generate kid friendly adventures! </p>
 			</div>
