@@ -187,7 +187,6 @@ a:hover {
 }
 
 .description_div {
-	background-color:#2999b5;
 	border-radius:5px;
 
 }
@@ -206,7 +205,7 @@ a:hover {
 #column1 {
 	width: 29%;
 	height:500px;
-	background-color:#3ba3b0;
+	background-color:#48b7b7;
 	float: left;
 	margin:2.1%;
 	display:inline-block;
@@ -252,8 +251,8 @@ a:hover {
 	}
 
 .adp-placemark {
-	background-color:#3ba3b0 !important;
-	border:#3ba3b0 5px !important;
+	background-color:#48b7b7 !important;
+	border:#48b7b7 5px !important;
 	border-radius:3px !important;
 	}
 
