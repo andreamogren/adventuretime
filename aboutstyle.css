@@ -3,8 +3,9 @@ body {
 	color: black;
 	text-align: center;
 	background-image:url('adventuring_background_image.png');
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
+	background-attachment:fixed;
 	}
 
 #logo {	
