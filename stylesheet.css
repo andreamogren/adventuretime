@@ -89,23 +89,14 @@ a:hover {
 	float: right;
 	background: #3b5998;
 	padding: 10px;
-	margin-top:-500px;
+	margin-top:0px;
 	width: 50px;
 	height: 25px;
 }
 
-/*#email_button{
-	float: right;
-	width: 50px;
-	height: 50px;
-	margin-right: -385px;
-	margin-top: -440px;
-	position: fixed;
-}*/
-
 .twitter-share-button {
 	float: right;
-	margin-top:-450px;
+	margin-top:0px;
 	background: #4099FF;
 	padding: 10px;
 	width: 50px;
