@@ -4,26 +4,47 @@
 		<link rel="shortcut icon" type="image/x-icon" href="compass.png" />
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<script type="text/javascript" 
+               src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWalfABCn439hb-iMPSiAHIp_QAOL4b-I"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<title>It's time for an adventure!</title>
+		
+				<!-- <script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  		ga('create', 'UA-84082917-4', 'auto');
+  		ga('send', 'pageview');
+		</script> -->
+		
 	</head>
-		<body>
-			<div id="header">
-				<a href="index.html"> <img id="logo" src="adventuring.png"> </a>
-					<div id="nav">
-					    	<a class="navlist" href="categories/nature.html">NATURE</a>
-						<a class="navlist" href="categories/city.html">CITY</a>
-						<a class="navlist" href="categories/far-away.html">FAR AWAY</a>
-						<a class="navlist" href="categories/free.html">FREE</a>
-					    	<a class="navlist" href="categories/kids.html">KIDS</a>
-						<a class="navlist" href="categories/fun.html">FUN</a>
-						<button id="myButton" class="float-left submit-button" >About us</button>
-							<script type="text/javascript">
-							document.getElementById("myButton").onclick = function () {
-							location.href = "https://andreamogren.github.io/adventuretime/about.html";
-							};
-							</script>
-						
-										<div class="fb-share-button" data-href="http://www.adventuring.se/" data-layout="button_count" data-mobile-iframe="true">
+	
+	<body>
+		
+			<div id="logo_div">
+				<a href="index.html"> 
+					<img id="logo" src="adventuring.png"> 
+				</a>
+			</div>
+		
+			<div id="nav">
+				<a href="categories/nature.html">NATURE</a>
+				<a href="categories/city.html">CITY</a>
+				<a href="categories/far-away.html">SUBURBS</a>
+				<a href="categories/free.html">FREE</a>
+				<a href="categories/kids.html">KIDS</a>
+				<a href="categories/fun.html">ADRENALINE</a>
+			</div>
+		
+		<button id="myButton" class="float-left submit-button" >About us</button>
+			<script type="text/javascript">
+				document.getElementById("myButton").onclick = function () {
+				location.href = "https://andreamogren.github.io/adventuretime/about.html";
+				};
+			</script>
+		
+				<div class="fb-share-button" data-href="http://www.adventuring.se/" data-layout="button_count" data-mobile-iframe="true">
 			<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.adventuring.se%2F&amp;src=sdkpreparse">
 			Share</a>
 		</div>
@@ -33,9 +54,7 @@
 		  data-size="large">
 		  Tweet
 		  </a>
-					</div>
-			</div>
-			
+
 			<h1>About us<h1>
 				<p>We are a group of four students from Hyper Island's Digital Data Strategist program. Our goal here is to provide a fun and interactive service for people living in or just passing by Stockholm. We are adventuring ourselves into the world of API's, HTML, CSS, JavaScript, jQuery and JSON. This has been an intrepid journey for us and we truly hope this website results in a considerable flow on Google Analytics... so please help us spread the word about it!</p>
 
